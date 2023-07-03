@@ -1,0 +1,59 @@
+:root {
+  /* - Mobile: 375px - Desktop: 1440px */
+  --dark-gray: hsl(217, 19%, 35%);
+  --medium-gray: hsl(214, 17%, 51%);
+  --light-gray: hsl(212, 23%, 69%);
+  --white: hsl(210, 46%, 95%);
+  --regular-font-size: 13px;
+  --font-family: 'Manrope', sans-serif;
+  --regular-font-weight: 500;
+  --bold-font-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+
+body{
+  font-family: var(--font-family);
+  font-size: var(--regular-font-size);
+  color: var(--medium-gray);
+}
