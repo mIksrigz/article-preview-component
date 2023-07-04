@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
 
   const articleFooter1 = document.querySelector('#article-footer1');
   const articleFooter2 = document.querySelector('#article-footer2');
-
+  const cloud = document.querySelector('.cloud');
   article.addEventListener('click', e => {
 
     if (e.target.matches('.arrow-container') || e.target.matches('.arrow')) {
@@ -12,10 +12,8 @@ window.addEventListener('load', () => {
         articleFooter1.classList.toggle('hide');
         articleFooter2.classList.toggle('hide');
       } else {
-
+        cloud.classList.toggle('hide');
       }
-
     }
   });
-
 });
